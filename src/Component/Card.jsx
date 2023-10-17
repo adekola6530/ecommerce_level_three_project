@@ -16,7 +16,7 @@ const Card = () => {
                         <div class="card shadow-sm bg-body-tertiary rounded">
                             <img src={frame} class="w-50 mx-auto" alt="Image 1" />
                             <div class="card-body bg-black">
-                                <p class="card-text text-center">add to cart</p>
+                                <p class="card-text text-center text-white">add to cart</p>
                             </div>
                         </div>
                         <p>Quilted Satin Jacket</p>
@@ -26,7 +26,7 @@ const Card = () => {
                         <div class="card shadow-sm bg-body-tertiary rounded">
                             <img src={gamepad} class="w-50 mx-auto" alt="Image 2" />
                             <div class="card-body bg-black mt-3">
-                                <p class="card-text text-center">add to cart.</p>
+                                <p class="card-text text-center text-white">add to cart.</p>
                             </div>
                             
                         </div>
@@ -38,7 +38,7 @@ const Card = () => {
                         <div class="card shadow-sm bg-body-tertiary rounded">
                             <img src={bag} class="w-50 mx-auto" alt="Image 3" />
                             <div class="card-body bg-black mt-4">
-                                <p class="card-text text-center">add to cart</p>
+                                <p class="card-text text-center text-white">add to cart</p>
                             </div>
                         </div>
                         <p>Gucci Duffle bag</p>
@@ -46,10 +46,10 @@ const Card = () => {
 
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
+                        <div class="card shadow-sm bg-body-tertiary rounded">
                             <img src={gamma} class="w-75 mx-auto" alt="Image 4" />
                             <div class="card-body bg-black mt-4">
-                                <p class="card-text text-center">add to cart</p>
+                                <p class="card-text text-center text-white">add to cart</p>
                             </div>
                         </div>
                         <p>RGB Liquid CPU Cooler</p>

@@ -2,6 +2,8 @@ import React from "react";
 import System from "../Images/gaming_system.png"
 import Keyboard from "../Images/Keyboard.png"
 import Chair from "../Images/Chair.png"
+import Monitor from "../Images/Gaming_monitor.png"
+import Cart from "../Images/garden_cart.png"
 
 const Cards = () => {
     return (
@@ -12,7 +14,7 @@ const Cards = () => {
                         <div class="card shadow-sm bg-body-tertiary rounded">
                             <img src={System} class="w-50 mx-auto" alt="Image 1" />
                             <div class="card-body bg-black">
-                                <p class="card-text text-center">add to cart</p>
+                                <p class="card-text text-center text-white">add to cart</p>
                             </div>
                         </div>
                         <p>Gaming Laptop</p>
@@ -20,9 +22,9 @@ const Cards = () => {
                     </div>
                     <div class="col-md-3">
                         <div class="card shadow-sm bg-body-tertiary rounded">
-                            <img src={Keyboard} class="w-50 mx-auto" alt="Image 2" />
+                            <img src={Keyboard} class="w-75 mx-auto" alt="Image 2" />
                             <div class="card-body bg-black mt-5">
-                                <p class="card-text text-center">add to cart.</p>
+                                <p class="card-text text-center text-white">add to cart.</p>
                             </div>
                         </div>
                         <p>Wired keyboard</p>
@@ -32,20 +34,20 @@ const Cards = () => {
                         <div class="card shadow-sm bg-body-tertiary rounded">
                             <img src={Chair} class="w-25 mx-auto" alt="Image 3" />
                             <div class="card-body bg-black mt-4">
-                                <p class="card-text text-center">add to cart</p>
+                                <p class="card-text text-center text-white">add to cart</p>
                             </div>
                         </div>
                         <p>S-Series Comfort Chair</p>
                         <small className="text-danger">#3400</small>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src={Chair} class="w-25 mx-auto" alt="Image 4" />
+                        <div class="card shadow-sm bg-body-tertiary rounded">
+                            <img src={Monitor} class="w-50 mx-auto" alt="Image 4" />
                             <div class="card-body bg-black mt-4">
-                                <p class="card-text text-center">add to cart</p>
+                                <p class="card-text text-center text-white">add to cart</p>
                             </div>
                         </div>
-                        <p>RGB Liquid CPU Cooler</p>
+                        <p>Gaming Monitor</p>
                         <small className="text-danger">#5000</small>
                     </div>
                 </div>
