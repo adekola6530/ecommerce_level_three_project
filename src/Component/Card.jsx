@@ -1,66 +1,97 @@
-import React from 'react'
-import frame from '../Images/frame.png'
-import gamepad from "../Images/gamepad.png"
-import bag from "../Images/bag.png"
-import gamma from "../Images/gamma.png"
-import icon from "../Images/garden_cart.png"
+import React from "react";
+import frame from "../Images/frame.png";
+import gamepad from "../Images/gamepad.png";
+import bag from "../Images/bag.png";
+import gamma from "../Images/gamma.png";
+import icon from "../Images/garden_cart.png";
+import {AiOutlineShoppingCart} from 'react-icons/ai'
 
 const Card = () => {
-    return (
-        <div>
-            
-            <div class="container mt-5 py-1">
-            <h5 className='mb-5'>Wishlist (4)</h5>
-                <div class="row bg-white">
-                    <div class="col-md-3">
-                        <div class="card shadow-sm bg-body-tertiary rounded">
-                            <img src={frame} class="w-50 mx-auto" alt="Image 1" />
-                            <div class="card-body bg-black">
-                                <p class="card-text text-center text-white">add to cart</p>
-                            </div>
-                        </div>
-                        <p>Quilted Satin Jacket</p>
-                        <small className='text-danger'>#500</small>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card shadow-sm bg-body-tertiary rounded">
-                            <img src={gamepad} class="w-50 mx-auto" alt="Image 2" />
-                            <div class="card-body bg-black mt-3">
-                                <p class="card-text text-center text-white">add to cart.</p>
-                            </div>
-                            
-                        </div>
-                        <p>Shooter USB Gamer</p>
-                        <small className='text-danger'>#4500</small>
-
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card shadow-sm bg-body-tertiary rounded">
-                            <img src={bag} class="w-50 mx-auto" alt="Image 3" />
-                            <div class="card-body bg-black mt-4">
-                                <p class="card-text text-center text-white">add to cart</p>
-                            </div>
-                        </div>
-                        <p>Gucci Duffle bag</p>
-                        <small className='text-danger'>#3500</small>
-
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card shadow-sm bg-body-tertiary rounded">
-                            <img src={gamma} class="w-75 mx-auto" alt="Image 4" />
-                            <div class="card-body bg-black mt-4">
-                                <p class="card-text text-center text-white">add to cart</p>
-                            </div>
-                        </div>
-                        <p>RGB Liquid CPU Cooler</p>
-                        <small className='text-danger'>#5000</small>
-
-                    </div>
-                    
+  return (
+    <div>
+      <div class="container mt-5 py-1">
+        <h5 className="mb-5">Wishlist (4)</h5>
+        <div className="row">
+          <div className=" col-md-3">
+            <div style={{ height: "25rem",}}>
+              <div style={{height : '100%'}}>
+              <div style={{height: '70%', background: '#f5f5f5', padding: '3rem'}}>
+              <img src={gamepad} className="card-img-top img-fluid   mx-auto" alt="..." />
+              </div>
+                <div className="">
+                    <button className="text-center bg-dark w-100 h-7 fs-5 text-white">
+                            <AiOutlineShoppingCart/>
+                            <span className="ms-2 pt-2 pb-2">Add to cart</span>
+                    </button>
+                  <p className="fs-5 pt-3">
+                    Gaming Pad
+                  </p>
+                  <small className="text-danger fs-5">#15000</small>
                 </div>
+              </div>
             </div>
+          </div>
+          <div className=" col-md-3">
+            <div style={{ height: "25rem",}}>
+              <div style={{height : '100%'}}>
+              <div style={{height: '70%', background: '#f5f5f5', padding: '3rem'}}>
+              <img src={frame} className="card-img-top img-fluid   mx-auto" alt="..." />
+              </div>
+                <div className="">
+                    <button className="text-center bg-dark w-100 h-7 fs-5 text-white">
+                            <AiOutlineShoppingCart/>
+                            <span className="ms-2 pt-2 pb-2">Add to cart</span>
+                    </button>
+                  <p className="fs-5 pt-3">
+                    Quilted Satin Jacket
+                  </p>
+                  <small className="text-danger fs-5">#10000</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" col-md-3">
+            <div style={{ height: "25rem",}}>
+              <div style={{height : '100%'}}>
+              <div style={{height: '70%', background: '#f5f5f5', padding: '3rem'}}>
+              <img src={bag} className="card-img-top img-fluid   mx-auto" alt="..." />
+              </div>
+                <div className="">
+                    <button className="text-center bg-dark w-100 h-7 fs-5 text-white">
+                            <AiOutlineShoppingCart/>
+                            <span className="ms-2 pt-2 pb-2">Add to cart</span>
+                    </button>
+                  <p className="fs-5 pt-3">
+                    Gucci duffle bag
+                  </p>
+                  <small className="text-danger fs-5">#4950</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" col-md-3">
+            <div style={{ height: "25rem",}}>
+              <div style={{height : '100%'}}>
+              <div style={{height: '70%', background: '#f5f5f5', padding: '3rem'}}>
+              <img src={gamma} className="card-img-top img-fluid   mx-auto" alt="..." />
+              </div>
+                <div className="">
+                    <button className="text-center bg-dark w-100 h-7 fs-5 text-white">
+                            <AiOutlineShoppingCart/>
+                            <span className="ms-2 pt-2 pb-2">Add to cart</span>
+                    </button>
+                  <p className="fs-5 pt-3">
+                    RGB Liquid CPU cooler
+                  </p>
+                  <small className="text-danger fs-5">#5900</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Card
+export default Card;
